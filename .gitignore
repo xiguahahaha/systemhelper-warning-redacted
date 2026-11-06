@@ -1,0 +1,21 @@
+# 不要提交样本 APK 或抓包中的个人数据
+*.apk
+*.apk.*
+*.zip
+*.pcap
+*.pcapng
+*.har
+
+# 备份/临时文件
+backup/
+SystemHelper_backup/
+*.bak
+*.tmp
+*.log
+
+# 系统/编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+node_modules/
